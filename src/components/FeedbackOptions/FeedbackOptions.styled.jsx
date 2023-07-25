@@ -13,7 +13,7 @@ export const Button = styled.button`
   padding: 5px;
   border-radius: 5px;
   border: none;
-  box-shadow: 0 1px 7px rgba(251, 154, 154, 0.3);
+  box-shadow: 0 1px 7px rgba(165, 99, 99, 0.3);
 
   &:hover,
   &:focus {
