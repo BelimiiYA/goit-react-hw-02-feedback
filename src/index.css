@@ -1,15 +1,14 @@
 @import-normalize; /* bring in normalize.css styles */
 
 body {
+  background: linear-gradient(to bottom, #2d4692, #b4c30b);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+
+  color: antiquewhite;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
